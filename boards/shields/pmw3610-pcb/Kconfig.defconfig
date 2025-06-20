@@ -1,0 +1,10 @@
+if SHIELD_PMW3610_PCB
+
+    config ZMK_KEYBOARD_NAME
+        default "PMW3610-PCB"
+
+    config ZMK_BLE
+        bool
+        default y
+
+endif

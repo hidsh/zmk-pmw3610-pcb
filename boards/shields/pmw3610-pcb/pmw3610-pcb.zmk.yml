@@ -1,0 +1,9 @@
+file_format: "1"
+id: pmw3610-pcb
+name: PMW3610-PCB
+type: shield
+url: https://github.com/hidsh/zmk-pmw3610-pcb
+requires: [seeed_xiao]
+features:
+  - keys
+  - pointer
