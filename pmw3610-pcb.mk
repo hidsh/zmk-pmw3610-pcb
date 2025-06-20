@@ -16,6 +16,9 @@ KBD_PID = 615e					# product id
 # abs path to this makefile
 mkpath = $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
+.ONESHELL:
+SHELL := /bin/bash
+
 .PHONY: build flash info
 
 flash: build info
@@ -34,7 +37,6 @@ flash: build info
 	@echo ':: done flashing.'
 
 build: info
-	[ -z $${ZEPHYR_BASE} ] && west zephyr-export
 	[ ! -d ${mkpath}/zmk-modules/zmk-pmw3610-driver ] && git clone https://github.com/badjeff/zmk-pmw3610-driver.git ${mkpath}/zmk-modules/zmk-pmw3610-driver
 	west build  --pristine \
 	            --board ${BOARD} \
