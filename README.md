@@ -40,6 +40,8 @@ ln -s ~/Downloads/zmk-pmw3610-pcb/pmw3610-pcb.mk ./Makefile
 
 ### Build
 ```
+cd PATH/TO/zmk/app
+
 # just `make` to build/flash firmware
 make
 ```
