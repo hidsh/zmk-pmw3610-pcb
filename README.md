@@ -6,8 +6,10 @@ This project is for checking PMW3610 Breakout board [pmw3610-pcb](https://github
 - shield: pmw3610-pcb
 - modules: https://github.com/badjeff/zmk-pmw3610-driver
 
-## Connection to XIAO nRF52840
+## Firmware Binary
+You can download `zmk.uf2` from the [Releases](https://github.com/hidsh/zmk-pmw3610-pcb/releases).
 
+## Connection to XIAO nRF52840
 ![schematic](img/connection-xiao-nrf.png)
 
 ## Keybindings
@@ -38,6 +40,8 @@ ln -s ~/Downloads/zmk-pmw3610-pcb/pmw3610-pcb.mk ./Makefile
 
 ### Build
 ```
+cd PATH/TO/zmk/app
+
 # just `make` to build/flash firmware
 make
 ```
