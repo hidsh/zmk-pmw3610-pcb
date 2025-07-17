@@ -58,5 +58,5 @@ make
 As above, I prefer to build in the `app` folder to [Building from zmk-config Folder](https://zmk.dev/docs/development/local-toolchain/build-flash?build-opts=addonMcu#building-from-zmk-config-folder). 
 
 ## Links
-- PMW3610 Breakout board [pmw3610-pcb](https://github.com/hidsh/pmw3610-pcb). Thanks to [siderakb](https://github.com/siderakb)!
-- Shop [BOOTH](https://zzz-kbd.booth.pm/items/7066618)
+- PMW3610 Breakout board: [pmw3610-pcb](https://github.com/hidsh/pmw3610-pcb) (Thanks to [siderakb](https://github.com/siderakb)!)
+- Shop: [BOOTH](https://zzz-kbd.booth.pm/items/7066618)
